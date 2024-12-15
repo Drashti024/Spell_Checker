@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spell and Grammar Checker Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Original Text</h1>
+    <p>{{ original_text }}</p>
+    <h1>Corrected Text</h1>
+    <p>{{ corrected_text }}</p>
+    <a href="/">Go Back</a>
+</body>
+</html>
